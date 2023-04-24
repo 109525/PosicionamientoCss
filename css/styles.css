@@ -2,19 +2,51 @@ h1{
     text-align: center;
     color: crimson;
 }
-div.relativo{
+/* div.relativo{
     max-width:300px;
     height: 200px;
     top: 10px;
     left: 100px;
     position: relative;
     border: 3px solid cornflowerblue;
-}
-div .absoluto{
+} */
+ /*div .absoluto{
     position: absolute;
     /* position: fixed; */
-    /* top: 0px; */
-    bottom: 20px;
+    /* top: 0px;*/
+   /* bottom: 20px;
     right: 10px;
     border: 3px solid firebrick;
+} */
+/* div{
+    position: sticky;
+    /* position: fixed; */
+    /* top: 0px; */
+    /* bottom: 20px;
+    right: 10px; */
+    /*top: 0;
+    border: 3px solid firebrick;
+} */
+div.estatico{
+    position: static;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+}
+div.relativo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+}
+div.absoluto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 112px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+    z-index: -1;
 }
